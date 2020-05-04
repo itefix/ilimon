@@ -1,13 +1,7 @@
 # ilimon
-A simple system monitoring system based on secure delegated checks.
+A simple and modular monitoring system.
 
-![ilimon architecture](https://github.com/itefix/ilimon/blob/master/ilimon-architecture.jpg)
+## Generic architecture
 
-## Features
+![ilimon architecture](https://github.com/itefix/ilimon/blob/master/ilimon-generic.jpg)
 
-* Delegated check result delivery
-* Secure transport via ssh tunnels
-* Dynamic reconfiguration based on incoming data
-* Highly scalable and distributed
-* Adapter technology for all modules
-* Basic dynamic dashboard capability
