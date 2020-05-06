@@ -1,30 +1,19 @@
 # ilimon
-A simple and modular monitoring system.
+A modular monitoring system.
 
 ![ilimon architecture](https://github.com/itefix/ilimon/blob/master/ilimon-generic.jpg)
 
 ** ROADMAP
 
-*** Version 0.1 - Barebone showcase (July 2020)
+*** Version 0.1 - a simple all-in-a-box showcase at a drawing board
 
-Provider|Implementation
+Component|Adapters supported
 --------|--------------
-Configuration store|XML file
-Log store|Plain file
-Trend store|File directory
-Notification|E-mail
-View|HTML read only
-Queue|File
-Worker|receive via ssh transport
+ilimon_worker|ssh_receiver
+ilimon_control|file
+ilimon_log|file
+ilimon_trend|file
+ilimon_notify|e-mail
+ilimon_view|html
+ilimon_queue|file
 
-*** Version 0.2 - SQL showcase
-
-Provider|Implementation
---------|--------------
-Configuration store|MySQL
-Log store|MySQL
-Trend store|MySQL
-Notification|E-mail
-View|HTML with action
-Queue|MySQL
-Worker|receive/send via ssh transport
